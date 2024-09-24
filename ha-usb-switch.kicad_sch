@@ -2681,6 +2681,18 @@
 		(uuid "2cc2bda1-29d4-40da-a2ee-aace2760a1e4")
 	)
 	(junction
+		(at 101.6 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bcfec4b-b8fe-4080-ad95-90d8bc17d995")
+	)
+	(junction
+		(at 93.98 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40456743-bb96-4234-a842-c0b55bf3a9d6")
+	)
+	(junction
 		(at 104.14 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2713,14 +2725,6 @@
 	(no_connect
 		(at 96.52 49.53)
 		(uuid "0e3fb680-e5d1-4598-9a26-6458ebffc533")
-	)
-	(no_connect
-		(at 107.95 95.25)
-		(uuid "1fba5e95-2d3d-4927-9263-555043b72c2c")
-	)
-	(no_connect
-		(at 107.95 92.71)
-		(uuid "37c4367d-1c15-4672-b263-d0a8da1e9cde")
 	)
 	(no_connect
 		(at 46.99 57.15)
@@ -2772,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002572c7-0858-4ba0-b3ec-452dd4905aa4")
+	)
+	(wire
+		(pts
 			(xy 96.52 34.29) (xy 102.87 34.29)
 		)
 		(stroke
@@ -2779,6 +2793,16 @@
 			(type default)
 		)
 		(uuid "05b6dfe1-9b43-49bb-9d51-d8c78eedd9be")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd15054-f50b-4ed1-b1aa-09c24cbb4512")
 	)
 	(wire
 		(pts
@@ -2812,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 92.71) (xy 101.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211d72c8-8261-4fdc-bd37-1c31e7c6eeb5")
+	)
+	(wire
+		(pts
 			(xy 96.52 38.1) (xy 105.41 38.1)
 		)
 		(stroke
@@ -2819,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "243f5bdf-6992-4c6a-8537-aa03879b36ef")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a49f808-e030-4695-a5bd-3692a639134e")
 	)
 	(wire
 		(pts
@@ -2849,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "4b011de7-7f3c-4fb1-891b-81311cc4c3fe")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54428272-0e64-4449-b7ab-1565a94476de")
 	)
 	(wire
 		(pts
@@ -2902,6 +2956,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 85.09) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78af8801-ea01-4b47-af11-33ca9014fa7c")
+	)
+	(wire
+		(pts
 			(xy 58.42 124.46) (xy 58.42 123.19)
 		)
 		(stroke
@@ -2909,6 +2973,16 @@
 			(type default)
 		)
 		(uuid "7b8017ee-ce59-40fa-a06b-d4781a272040")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f368697-eb8e-4197-bbf2-d328421d0ea6")
 	)
 	(wire
 		(pts
@@ -2932,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 87.63) (xy 107.95 87.63)
+			(xy 93.98 85.09) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3012,6 +3086,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3f1612-18bc-45a2-92d6-93e8fc77a9d1")
+	)
+	(wire
+		(pts
 			(xy 26.67 102.87) (xy 26.67 104.14)
 		)
 		(stroke
@@ -3052,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 87.63)
+			(xy 93.98 82.55) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3694,6 +3778,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56b92378-bc94-448e-aae9-96628b30cfd7")
+		(property "Reference" "R4"
+			(at 103.0986 87.6878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "56k"
+			(at 103.0986 90.1121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f36ea0a-db7e-456e-93e6-035a6b0d537e")
+		)
+		(pin "1"
+			(uuid "d588396a-176d-4a31-8b98-11d3adad3c4f")
+		)
+		(instances
+			(project "ha-usb-switch"
+				(path "/20d31bfa-a88e-404e-a379-3f6fa0b30aa5"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 72.39 87.63 0)
@@ -3763,7 +3917,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 104.14 86.36 0)
+		(at 93.98 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3772,7 +3926,7 @@
 		(fields_autoplaced yes)
 		(uuid "63747db4-a590-4b2e-ab5c-e7843ebf2bc0")
 		(property "Reference" "#PWR03"
-			(at 104.14 90.17 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3935,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 82.2269 0)
+			(at 93.98 78.4169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 86.36 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 86.36 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 86.36 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,6 +4108,76 @@
 			(project "ha-usb-switch"
 				(path "/20d31bfa-a88e-404e-a379-3f6fa0b30aa5"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 93.98 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aeb38a7-9c6f-474a-9ca2-7237b50f2912")
+		(property "Reference" "R5"
+			(at 95.4786 87.6878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 95.4786 90.1121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "840c4519-5632-428a-821d-324d79b31cd0")
+		)
+		(pin "1"
+			(uuid "b7128fbd-e3fa-4c7a-907e-9e5a63e4073e")
+		)
+		(instances
+			(project "ha-usb-switch"
+				(path "/20d31bfa-a88e-404e-a379-3f6fa0b30aa5"
+					(reference "R5")
 					(unit 1)
 				)
 			)
